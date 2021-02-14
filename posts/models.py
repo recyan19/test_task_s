@@ -9,10 +9,6 @@ class Post(models.Model):
     created_by = models.ForeignKey(User, on_delete=models.CASCADE)
 
     @property
-    def liked(self):
-        return
-
-    @property
     def likes_count(self):
         return self.likes.count()
 
