@@ -1,0 +1,15 @@
+{
+  "bot_settings": {
+    "number_of_users": 50,
+    "max_posts_per_user": 10,
+    "max_likes_per_user": 50
+  },
+  "urls": {
+    "base_url": "http://127.0.0.1:8000",
+    "signup_url": "/api/register/",
+    "get_token_url": "/api/token/",
+    "refresh_token_url": "/api/token/refresh",
+    "post_create_url": "/api/posts/",
+    "post_like_url": "/api/posts/{post_id}/like/"
+  }
+}

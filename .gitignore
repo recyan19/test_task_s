@@ -1,0 +1,17 @@
+# IDEs and editors
+/.idea
+
+# System Files
+.DS_Store
+
+# backend virtual environment
+venv/
+
+# pycharm
+*.pyc
+__pycache__
+
+
+# staticfiles
+/static
+db.sqlite3
